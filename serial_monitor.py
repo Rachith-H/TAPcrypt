@@ -4,7 +4,7 @@ import time
 arduino = serial.Serial('COM3', 9600, timeout=1)
 time.sleep(2)
 
-print("Listening for tap sequence... Press Enter to stop.")
+print("Listening for tap sequence....")
 
 with open("tap_sequence.txt", "w") as f:
     pass
