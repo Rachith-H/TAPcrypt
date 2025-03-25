@@ -72,5 +72,5 @@ def hide_text(image_path, secret_message, output_image):
                     cv2.imwrite(output_image, img)
                     return
 
-hide_text("C:\\Engineering\\1.Cognition\\Normal.png",encrypted_string,"C:\\Engineering\\1.Cognition\\stego.png")
+hide_text("C:\\docs\\Normal.png",encrypted_string,"C:\\docs\\stego.png")
 
