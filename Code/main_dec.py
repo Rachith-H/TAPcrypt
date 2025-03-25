@@ -65,6 +65,6 @@ def aes_decrypt(encrypted_base64, key):
     return decrypted_message.decode()
 
 key = generate_aes_key(fdiff)
-aes_enc = extract_text("C:\\Engineering\\1.Cognition\\stego.png")
+aes_enc = extract_text("C:\\docs\\stego.png")
 msg = aes_decrypt(aes_enc,key)
 print(msg)
